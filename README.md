@@ -43,6 +43,7 @@
 + gitee https://ci.ci/DQX
 + http://fj365.ml/m.json 
 + https://fj365.gitee.io/cmp4/m.json
++ https://codeberg.org/fj365/CMP4/raw/branch/master/m.json
 + http://fj365.ml/tv/maotv.json   
 + http://fj365.gitee.io/cmp4/tv/maotv.json   
 + https://raw.githubusercontent.com/fj365/CMP4/master/tv/maotv.json
