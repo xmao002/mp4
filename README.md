@@ -57,7 +57,6 @@
 + https://shuyuan.miaogongzi.net/shuyuan/1635506797.json (212757)
 + https://shuyuan.miaogongzi.net/shuyuan/1635448212.txt (maotv)
 + https://shuyuan.miaogongzi.net/shuyuan/1636121700.txt (dglxxn)
-+ https://wds.ecsxs.com/212757.json (爬虫-XPath-M)
 + https://wds.ecsxs.com/213604.json
 + http://pglblb-1307091970.cos.ap-guangzhou.myqcloud.com/maotv.txt (爬虫-XPath-M)多资源
 + http://pglblb-1307091970.cos.ap-guangzhou.myqcloud.com/88.json
