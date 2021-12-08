@@ -44,6 +44,9 @@
 + http://fj365.ml/m.json 
 + https://fj365.gitee.io/cmp4/m.json
 + https://codeberg.org/fj365/CMP4/raw/branch/master/m.json
+<details>
+<summary>。。。</summary>
+ ![.](/img/00001.png)
 + http://fj365.ml/tv/maotv.json   
 + http://fj365.gitee.io/cmp4/tv/maotv.json   
 + https://raw.githubusercontent.com/fj365/CMP4/master/tv/maotv.json
@@ -66,6 +69,7 @@
 + https://wds.ecsxs.com/212010.json (xml-API)
 + https://cdn.jsdelivr.net/gh/hasoelee/hasoe/maoys.json (xml-爬虫)
 + https://netcut.cn/p/b3c2125358956dde (xml资源)
+ </details>
 
 * TV端自建CDN接口地址:  
 + https://raw.fastgit.org/fj365/CMP4/master/m.json
@@ -217,7 +221,8 @@ https://cdn.jsdelivr.net/gh/YuanHsing/freed/漫画｜图源｜2021.10.24有图�
 
 * 随机开场演示地址： 
 + http://www.fj365.ml/n9.swf?skin_id=2
-
+<details>
+<summary>。。。</summary>
 龒蜗牛V3皮肤功能配置
 <hr>
 <h3>config.xml使用说明：实例地址： http://www.fj365.ml/config.xml</h3>
@@ -373,3 +378,4 @@ http://yck.mumuceo.com/yiciyuan/tuyuan/index.html
 设定步骤｜账户信息 > 安全选项 > 第三方应用管理 > 添加应用 > 名称 > 生成密码
 WebDav地址｜https://dav.jianguoyun.com/dav/
 ```
+</details>
