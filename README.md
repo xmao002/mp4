@@ -97,6 +97,8 @@
 # 小包搜搜
 * APP： 
 + https://tsq.lanzoui.com/b0c3uy4qf
+* 自建接口地址: 
++ https://fj365.ml/sj/xbss.json
 
 # 车机
 * APP：
