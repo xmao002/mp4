@@ -57,6 +57,7 @@
 + https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/maoo2.json
 + https://tool.wotianna.com/mysjk.json
 + https://wds.ecsxs.com/212757.json
++ http://c1n.cn/2
 + http://c1n.cn/mao
 + https://c1n.cn/m1
 + https://c1n.cn/m2
