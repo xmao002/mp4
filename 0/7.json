@@ -15,7 +15,7 @@
 {"key":"Jumi","name":"Jumi(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tangmen1.coding.net/p/mys/d/cat/git/raw/main/rewrite/xpath/Jumi.json"},
 {"key":"Djx","name":"瓜皮TV(P)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tangmen1.coding.net/p/mys/d/cat/git/raw/main/rewrite/xpath/Djx.json"},
 {"key":"独播库","name":"独播库(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tangmen1.coding.net/p/mys/d/cat/git/raw/main/rewrite/xpath/Duboku.json"},
-//{"key":"Sky4k","name":"Sky4k(P)[en]","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tangmen1.coding.net/p/mys/d/cat/git/raw/main/rewrite/xpath/Sky4k.json"},
+//{"key":"Sky4k","name":"Sky4k(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tangmen1.coding.net/p/mys/d/cat/git/raw/main/rewrite/xpath/Sky4k.json"},
 //{"key":"唐人街","name":"唐人街(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tangmen1.coding.net/p/mys/d/cat/git/raw/main/rewrite/xpath/Renjie.json"},
 {"key":"2345_spider","name":"2345影视(官源)","type":3,"api":"csp_YS2345","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/2345.json"},
 {"key": "360_spider","name": "360影视(官源)","type": 3,"api": "csp_YS360","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/pub/ext/360.json"},
