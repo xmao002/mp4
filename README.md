@@ -41,6 +41,7 @@
 + https://ci.ci/Rou
 + https://ci.ci/c6H
 + gitee https://ci.ci/DQX
++ https://c1n.cn/cat 
 + http://fj365.ml/m.json 
 + https://fj365.gitee.io/cmp4/m.json
 + https://codeberg.org/fj365/CMP4/raw/branch/master/m.json
