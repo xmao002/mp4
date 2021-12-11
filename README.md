@@ -121,7 +121,8 @@
 
 # 桌面TV
 * APP： 
-+ https://sharerw.lanzoui.com/b0afst49g
++ 当贝 https://sharerw.lanzoui.com/b0afst49g
++ ATV https://sharerw.lanzoui.com/b0afomnej
 
 # player 播放器
 * APP： mx（arm64为手机用 -- arm7a为TV盒子用）
