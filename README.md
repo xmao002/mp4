@@ -119,7 +119,7 @@
 + https://baozizhenchun.coding.net/p/coding-code-guide/d/coding-code-guide/git/raw/master/dy_111.json
 + https://mp.weixin.qq.com/s/iWHokT_vkSWHC1ckz7HxYA
 
-# 当贝桌面TV 3.3.6 完美修改版
+# 桌面TV
 * APP： 
 + https://sharerw.lanzoui.com/b0afst49g
 
@@ -138,7 +138,7 @@
 * APP： 
 + https://sharerw.lanzoux.com/b0agb26ta
 
-# 音乐TV版
+# 音乐TV
 * APP： 
 + 酷我 https://sharerw.lanzoux.com/ioVLjuwvsof
 + Q Q https://sharerw.lanzoui.com/iwstZii8rgh
