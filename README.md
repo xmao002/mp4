@@ -45,7 +45,6 @@
 + http://fj365.ml/m.json 
 + https://fj365.gitee.io/cmp4/m.json
 + https://codeberg.org/fj365/CMP4/raw/branch/master/m.json
-+ https://cdn.jsdelivr.net/gh/Tangsan99999/cat@main/My.json
 <details>
 <summary>。。。</summary>
  ![.](/3/00001.png)
