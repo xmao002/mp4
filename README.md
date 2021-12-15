@@ -74,7 +74,6 @@
 + https://cdn.jsdelivr.net/gh/hasoelee/hasoe/maoys.json (xml-爬虫)
 + https://netcut.cn/p/b3c2125358956dde (xml资源)
  ```
- 
  </details>
 
 * TV端自建CDN接口地址:  
@@ -92,12 +91,15 @@
 + https://ci.ci/kc2
 + https://fj365.ml/c.json
 + https://c1n.cn/c1
+<details>
+<summary>。。。</summary>
 + http://www.fj365.ml/tv/cytv.json   
 + http://fj365.gitee.io/cmp4/tv/cytv.json  
 + https://raw.githubusercontent.com/fj365/CMP4/master/tv/cytv.json  
 + https://c1n.cn/c2
 + https://gitee.com/liu673/tv/raw/master/cy/01.txt
 + https://gitee.com/liu673/tv/raw/master/cy/02.txt
+</details>
 
 * TV端自建CDN接口地址: 
 + https://raw.fastgit.org/fj365/CMP4/master/c.json
