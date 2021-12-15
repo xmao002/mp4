@@ -149,9 +149,9 @@
 + m   https://www.coolapk.com/apk/cn.nr19.mbrowser
 ```
 M浏览器APP影视
-mapi:qm/https://sl.al/otO
-mapi:qm/https://ci.ci/Qqh
 mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit/qmFile/InMemory/APP%E5%BD%B1%E8%A7%86.mqz
+失效 mapi:qm/https://sl.al/otO
+失效 mapi:qm/https://ci.ci/Qqh
 ```
 + 423 https://423down.lanzoui.com/b0f2r0aoj
 <hr>
