@@ -1608,7 +1608,7 @@
 {"category":4,"name":"mediacodec-auto-rotate","value":"0"},
 {"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},
 {"category":4,"name":"mediacodec-hevc","value":"0"},
-{"category":1,"name":"dns_cache_timeout","value":"36000000"}
+{"category":1,"name":"dns_cache_timeout","value":"600000000"}
 ]},
 {"group":"硬解码","options":[
 {"category":4,"name":"opensles","value":"0"},
@@ -1626,7 +1626,7 @@
 {"category":4,"name":"mediacodec-auto-rotate","value":"1"},
 {"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},
 {"category":4,"name":"mediacodec-hevc","value":"1"},
-{"category":1,"name":"dns_cache_clear","value":"1"}
+{"category":1,"name":"dns_cache_timeout","value":"600000000"}
 ]}
 ],
 //广告域名过滤
