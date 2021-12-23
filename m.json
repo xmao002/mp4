@@ -820,12 +820,6 @@
 {"name":"SiTV游戏风云","urls":["http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226579/index.m3u8"]},
 {"name":"SiTV都市剧场","urls":["http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226581/index.m3u8"]}
 ]},
-{"group": "电竞","channels": [{"name":"黑莓电竞","urls":["http://39.134.65.82/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8","http://39.134.65.82:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225712/index.m3u8","http://39.134.65.82:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225713/index.m3u8"]},
-{"name":"游戏风云","urls":["http://183.207.255.188/live/program/live/yxfyhd/4000000/mnf.m3u8","http://39.134.18.65/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226579/index.m3u8","http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221227713/index.m3u8"]},
-{"name":"KPL","urls":["http://tx2play1.douyucdn.cn/live/1863767rkpl_4000p.xs?","https://117.175.57.33/3954-dl.liveplay.myqcloud.com/live/3954_127935490_4000.flv","https://cn-jxnc-cmcc-live-02.bilivideo.com/live-bvc/288045/live_392836434_52698792_4000.m3u8","http://dyscdnali1.douyucdn.cn/live/1863767rkpl_4000p.flv?uuid=","http://121.51.249.99/txdirect.hls.huya.com/src/78941969-2691358968-11559298749356310528-3120471200-10057-A-0-1.m3u8"]},
-{"name":"LPL","urls":["https://117.175.57.33/3954-dl.liveplay.myqcloud.com/live/3954_367958257_4000.flv","http://121.51.249.99/txdirect.hls.huya.com/src/78941969-2601386338-11172869245971202048-3120471182-10057-A-0-1-imgplus.m3u8"]},
-{"name":"PEL","urls":["https://cn-jxnc-cmcc-live-02.bilivideo.com/live-bvc/183705/live_50329337_6907945_4000.m3u8"]}
-]},
 {"group": "风景区","channels": [{"name":"全国风景总览","urls":["https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001"]},
 {"name":"北京-南宫温泉休闲度假区","urls":["http://gcalic.v.myalicdn.com/gc/tyhjntyz_1/index.m3u8?contentid=2820180516001"]},
 {"name":"北京-水立方","urls":["http://gcalic.v.myalicdn.com/gc/gccntv241-slf01_1/index.m3u8?contentid=2820180516001"]},
