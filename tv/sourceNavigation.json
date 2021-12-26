@@ -1,20 +1,6 @@
 {
   "data": [
 {
-      "name": "龒蜗牛D",
-      "pic": "http://static.yingyonghui.com/icon/128/6375279.png",
-      "webUrl": "http://fj365.ml",
-      "type": "web",
-      "webOpen": true,
-      "keyDownPlay": false,
-      "keyUpPlay": false,
-      "userAgent": "",
-      "subTitle": "",
-      "click": true,
-      "autoNext": false,
-      "decoder": 1,
-      "webPlus": {}
-    },{
       "name": "虎牙直播",
       "pic": "http://static.yingyonghui.com/icon/128/6865900.png",
       "webUrl": "http://fj365.ml/tv/huya2.txt",
