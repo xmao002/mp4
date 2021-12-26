@@ -641,6 +641,144 @@
         }
       }
     },{
+      "name": "樱花动漫2",
+      "pic": "https://tlgur.com/d/Gbk3j2yg",
+      "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
+      "type": "webPlug",
+      "subTitle": "高清有筛选",
+      "subMobileTitle": "樱花动漫2",
+      "ads": "",
+      "webUrl": "https://www.juztv.com/",
+      "webOpen": false,
+      "click": true,
+      "webPlus": {
+        "search_url": "https://www.juztv.com/vodsearch/-------------/?wd={kw}",
+        "nav_url": "http://www.yhdm2.com/navCate/2021/0/all/navPage.html",
+        "cate_url": "http://www.yhdm2.com/cateNav/cateYear/cateCate/cateArea/catePage.html https://www.wydcn.com/vod/show/id/cateNav/page/catePage/year/cateYear.html",
+        "web_name": "樱花动漫2",
+        "kw": "wd",
+        "params": [
+          {
+            "key": "key",
+            "value": "value"
+          }
+        ],
+        "navHtml": {
+          "name": [
+            "电影",
+            "连续剧",
+            "动画",
+            "综艺"
+            
+          ],
+          "cate": [
+            "mov",
+            "tv",
+            "acg",
+            "zongyi"
+          ],
+          "page": "1"
+        },
+        "cateHtml": {
+          "isCate": false,
+          "isYear": false,
+          "isArea": false,
+          "cate": "全部,0&&古装,19&&言情,20&&武侠,21&&偶像,22&&家庭,23&&青春,24&&都市,25&&爱情,26&&喜剧,27&&战争,28&&军旅,29&&谍战,30&&悬疑,31&&罪案,32&&穿越,33&&宫廷,34&&历史,35&&神话,36&&科幻,37&&年代,38&&农村,39&&商战,40&&剧情,41&&奇幻,42",
+          "year": "全部,0&&2021,2021&&2020,2020&&2019,2019&&2018,2018&&2017,2017&&2016,2016&&2015,2015&&2014,2014&&2013,2013&&2012,2012&&2011,2011&&2010,2010&&2009,2009&&2008,2008&&更早,2000",
+          "area": "全部,all&&大陆,china&&香港,hk&&台湾,tw&&美国,american&&日本,japan&&韩国,korea&&泰国,thailand"
+        },
+        "html": {
+          "episodes": {
+            "hasUrlPrefix": false,
+            "isListItemAttr": true,
+            "isReg": false,
+            "isRegNeedDecoder": false,
+            "listCss": "li > a",
+            "isMultiList": false,
+            "listCssMulti": "",
+            "listItemAttr": "href",
+            "listItemCss": "a",
+            "listItemIndex": 0,
+            "mainCss": "ul#stab_1_71",//集数列表
+            "mainIndex": 0,
+            "regIndexList": [
+              0
+            ],
+            "regItemIndex": 0,
+            "regItemStr": "",
+            "regSplitList": [
+              ""
+            ],
+            "regStrList": [
+              ""
+            ]
+          },
+          "nav": {
+            "isKWInUrl": false,
+            "isWebPlay": false,
+            "descAttr": "",
+            "descCss": "p.bz",//更新几集
+            "descIndex": 0,
+            "hasImgUrlPrefix": true,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "div.index-tj.mb.clearfix",//分类专辑列表
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "ul > li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
+          },
+          "search": {
+            
+          },
+          "video": {
+            "episodesListCss": "",
+            "episodesMainCss": "",
+            "episodesMainIndex": 0,
+            "hasEpisodes": false,
+            "hasUrlPrefix": false,
+            "iframeAttr": "src",
+            "iframeIndex": 0,
+            "isFrame": true,
+            "isFrameProcess": false,
+            "isItemAttr": false,
+            "isNameAttr": false,
+            "isReg": true,
+            "isUrlAttr": false,
+            "itemAttr": "",
+            "itemCss": "script",
+            "itemIndex": 2,
+            "mainCss": "body",
+            "mainIndex": 0,
+            "nameAttr": "",
+            "nameCss": "",
+            "nameIndex": 0,
+            "regIndex": 0,
+            "regStr": "(?<=<video class=\"dplayer-video dplayer-video-current\" webkit-playsinline=\"\" playsinline=\"\" preload=\"metadata\" src=\")(.*)(?=\">)",
+            "title": "",
+            "urlAttr": "",
+            "urlCss": "",
+            "urlIndex": 0,
+            "videoCss": "",
+            "videoIndex": 1,
+            "isVideoUrlAttr": true,
+            "videoUrlAttr": "",
+            "isFromWebView": false,
+            "js": ""
+          }
+        }
+      }
+    },{
       "name": "NFXHD(规则)",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p2650.jpg",
       "type": "webPlug",
