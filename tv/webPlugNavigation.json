@@ -379,7 +379,7 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.fed-tabs-foot",//ul.fed-tabs-btm.fed-padding.fed-part-rows.fed-visible
+            "mainCss": "div.fed-tabs-foot",
             "mainIndex": 0,
             "regIndexList": [
               0
@@ -408,12 +408,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.fed-col-sx12",//div.fed-part-layout.fed-back-whits
+            "mainCss": "div.fed-main-info.fed-min-width > div > div:nth-child(4)",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul > li",//ul.fed-list-info.fed-part-rows > li.fed-list-item.fed-padding.fed-col-xs4.fed-col-sm3.fed-col-md2
+            "searchListCss": "ul > li",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -438,7 +438,7 @@
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "dl > dt",//dl.fed-list-deta.fed-deta-padding.fed-line-top.fed-margin.fed-part-rows.fed-part-over > dt.fed-deta-images.fed-list-info.fed-col-xs3
+            "searchListCss": "dl > dt",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -493,8 +493,8 @@
       "click": true,
       "webPlus": {
         "search_url": "https://www.9ekk.net/vod/search.html?wd={kw}&submit=",
-        "nav_url": "https://www.9ekk.net/vodshow/navCate--------navPage---.html",//https://www.9ekk.net/vodshow/navCate/page/navPage
-        "cate_url": "https://www.9ekk.net/vodshow/cateNav-cateCate-------catePage---cateYear.html",//https://www.9ekk.net/vodshow/cateNav/area/cateArea/page/catePage/year/cateYear/class/cateCate
+        "nav_url": "https://www.9ekk.net/vodshow/navCate--------navPage---.html",
+        "cate_url": "https://www.9ekk.net/vodshow/cateNav-cateCate-------catePage---cateYear.html",
         "web_name": "9亿看看",
         "kw": "wd",
         "params": [
@@ -509,22 +509,12 @@
             "电视剧",
             "动漫",
             "综艺"
-            //"国语配音",
-            //"热播电影",
-            //"热播电视",
-            //"热播美剧",
-            //"国配外剧"
           ],
           "cate": [
             "dianying",
             "lianxuju",
             "dongman",
             "zongyi"
-            //"gypy",
-            //"zuijinrebodianying",
-            //"zuijinrebodianshiju",
-            //"rebomeiju",
-            //"guoyupeiyinhanju"
           ],
           "page": "1"
         },
@@ -548,7 +538,7 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "ul.stui-content__playlist",
+            "mainCss": "ul#dx2",//.stui-content__playlist
             "mainIndex": 0,
             "regIndexList": [
               0
@@ -577,12 +567,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.stui-pannel_bd",//div.stui-pannel.stui-pannel-bg.clearfix
+            "mainCss": "div.stui-pannel_bd",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul > li",//ul.myui-vodlist.clearfix
+            "searchListCss": "ul > li",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -602,12 +592,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.stui-pannel_bd",//div.stui-pannel.stui-pannel-bg.clearfix
+            "mainCss": "div.stui-pannel_bd",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul > li > div.thumb",//ul.stui-vodlist__media.col-pd.clearfix
+            "searchListCss": "ul > li > div.thumb",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -635,7 +625,8 @@
             "nameCss": "",
             "nameIndex": 0,
             "regIndex": 0,
-            "regStr": "(?<=<video class=\"dplayer-video dplayer-video-current\" webkit-playsinline=\"\" playsinline=\"\" preload=\"metadata\" src=\")(.*)(?=\">)",
+            "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
+            //"regStr": "(?<=<video class=\"dplayer-video dplayer-video-current\" webkit-playsinline=\"\" playsinline=\"\" preload=\"metadata\" src=\")(.*)(?=\">)",
             "title": "",
             "urlAttr": "",
             "urlCss": "",
