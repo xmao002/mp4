@@ -3,7 +3,7 @@
 {
       "name": "龒蜗牛D",
       "pic": "http://static.yingyonghui.com/icon/128/6375279.png",
-      "webUrl": "http://fj365.gitee.io/cmp4/",
+      "webUrl": "http://fj365.ml",
       "type": "web",
       "webOpen": true,
       "keyDownPlay": false,
@@ -41,7 +41,22 @@
       "decoder": 1,
       "webPlus": {}
     },{
-      "name": "福建移动cdn1",
+      "name": "MV HD",
+      "pic": "http://static.yingyonghui.com/icon/128/6375279.png",
+      "webUrl": "http://fj365.ml/tv/j001.txt",
+      "type": "gitJson",
+      "subTitle": "",
+      "click": true,
+      "autoNext": true,
+      "webOpen": false,
+      "keyDownPlay": true,
+      "keyUpPlay": true,
+      "userAgent": "",
+      "ads": "",
+      "decoder": 0,
+      "webPlus": {}
+    },{
+      "name": "福建移动 CDN1",
       "pic": "http://static.yingyonghui.com/icon/128/5079046.png",
       "webUrl": "https://cdn.jsdelivr.net/gh/fj365/CMP4@master/iptv/fj01.txt",
       "type": "txt",
@@ -56,7 +71,7 @@
       "decoder": 1,
       "webPlus": {}
     },{
-      "name": "福建移动cdn2",
+      "name": "福建移动 CDN2",
       "pic": "http://static.yingyonghui.com/icon/128/5079046.png",
       "webUrl": "https://cdn.jsdelivr.net/gh/fj365/CMP4@master/iptv/fj02.txt",
       "type": "txt",
