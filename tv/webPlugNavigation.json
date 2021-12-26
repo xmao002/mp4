@@ -1,14 +1,6 @@
 {
   "data": [
-    {
-      "name": "龒蜗牛_W",
-      "pic": "http://static.yingyonghui.com/icon/128/6844471.png",
-      "userAgent": "",
-      "ads": "",
-      "webUrl": "http://fj365.ml/",
-      "webOpen": true,
-      "click": true
-    },{
+{
       "name": "桔子TV",
       "pic": "https://tlgur.com/d/Gbk3j2yg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
@@ -67,7 +59,7 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "ul.stui-content__playlist",
+            "mainCss": "ul.stui-content__playlist",//集数列表
             "mainIndex": 0,
             "regIndexList": [
               0
@@ -85,7 +77,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "span.pic-text.text-right",
+            "descCss": "span.pic-text.text-right",//更新几集
             "descIndex": 0,
             "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
@@ -96,7 +88,7 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "ul.stui-vodlist",
+            "mainCss": "ul.stui-vodlist",//分类专辑列表
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
@@ -312,7 +304,7 @@
             "nameCss": "",
             "nameIndex": 0,
             "regIndex": 0,
-            "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
+            "regStr": "(?<=<video class=\"dplayer-video dplayer-video-current\" webkit-playsinline=\"\" playsinline=\"\" preload=\"metadata\" src=\")(.*)(?=\">)",
             "title": "",
             "urlAttr": "",
             "urlCss": "",
@@ -387,7 +379,7 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.fed-main-info.fed-min-width",
+            "mainCss": "ul.fed-tabs-btm.fed-padding.fed-part-rows.fed-visible",
             "mainIndex": 0,
             "regIndexList": [
               0
@@ -405,7 +397,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "dd.fed-deta-button.fed-col-xs7.fed-col-sm8.fed-part-rows",
+            "descCss": "span.fed-list-remarks.fed-font-xii.fed-text-white.fed-text-center",
             "descIndex": 0,
             "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
@@ -416,12 +408,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.row",
+            "mainCss": "ul.fed-list-info.fed-part-rows",
             "mainListIndex": 1,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "div.col-md-1-5 > div.movie-item",
+            "searchListCss": "ul > li",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -430,23 +422,23 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "button.hdtag",
+            "descCss": "span.fed-list-remarks.fed-font-xii.fed-text-white.fed-text-center",
             "descIndex": 0,
             "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
-            "imgAttr": "src",
+            "imgAttr": "data-original",
             "imgCss": "img",
             "imgIndex": 0,
             "isDescAttr": false,
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.row",
+            "mainCss": "div.fed-part-layout.fed-back-whits.fed-margin-right",
             "mainListIndex": 1,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "div.col-md-1-5 > div.movie-item",
+            "searchListCss": "dl > dt",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -474,6 +466,7 @@
             "nameCss": "",
             "nameIndex": 0,
             "regIndex": 0,
+            //"regStr": "(?<=var urls = \")(.*)(?=\")",
             "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
             "title": "",
             "urlAttr": "",
@@ -547,7 +540,7 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.tab-pane.fade.in.clearfix",
+            "mainCss": "ul.stui-content__playlist",
             "mainIndex": 0,
             "regIndexList": [
               0
@@ -581,7 +574,7 @@
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "li",
+            "searchListCss": "ul > li",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -601,12 +594,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "ul.myui-vodlist__media.clearfix",
+            "mainCss": "ul.stui-vodlist__media.col-pd.clearfix",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "li",
+            "searchListCss": "ul > li",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
