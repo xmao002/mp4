@@ -373,13 +373,13 @@
             "isListItemAttr": true,
             "isReg": false,
             "isRegNeedDecoder": false,
-            "listCss": "li.fed-padding.fed-col-xs3.fed-col-sm2 > a",
+            "listCss": "ul > li",
             "isMultiList": false,
             "listCssMulti": "",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "ul.fed-tabs-btm.fed-padding.fed-part-rows.fed-visible",
+            "mainCss": "div.fed-tabs-foot",//ul.fed-tabs-btm.fed-padding.fed-part-rows.fed-visible
             "mainIndex": 0,
             "regIndexList": [
               0
@@ -408,12 +408,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.fed-part-layout.fed-back-whits",
+            "mainCss": "div.fed-col-sx12",//div.fed-part-layout.fed-back-whits
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul.fed-list-info.fed-part-rows > li.fed-list-item.fed-padding.fed-col-xs4.fed-col-sm3.fed-col-md2",
+            "searchListCss": "ul > li",//ul.fed-list-info.fed-part-rows > li.fed-list-item.fed-padding.fed-col-xs4.fed-col-sm3.fed-col-md2
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -438,7 +438,7 @@
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "dl.fed-list-deta.fed-deta-padding.fed-line-top.fed-margin.fed-part-rows.fed-part-over > dt.fed-deta-images.fed-list-info.fed-col-xs3",
+            "searchListCss": "dl > dt",//dl.fed-list-deta.fed-deta-padding.fed-line-top.fed-margin.fed-part-rows.fed-part-over > dt.fed-deta-images.fed-list-info.fed-col-xs3
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -467,7 +467,7 @@
             "nameIndex": 0,
             "regIndex": 0,
             //"regStr": "(?<=var urls = \")(.*)(?=\")",
-            "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
+            "regStr": "(?<=<video class=\"dplayer-video dplayer-video-current\" webkit-playsinline=\"\" playsinline=\"\" preload=\"metadata\" src=\")(.*)(?=\">)",
             "title": "",
             "urlAttr": "",
             "urlCss": "",
@@ -577,12 +577,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.stui-pannel.stui-pannel-bg.clearfix",
+            "mainCss": "div.stui-pannel_bd",//div.stui-pannel.stui-pannel-bg.clearfix
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul.myui-vodlist.clearfix > li",
+            "searchListCss": "ul > li",//ul.myui-vodlist.clearfix
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -602,12 +602,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.stui-pannel.stui-pannel-bg.clearfix",
+            "mainCss": "div.stui-pannel_bd",//div.stui-pannel.stui-pannel-bg.clearfix
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul.stui-vodlist__media.col-pd.clearfix > li",
+            "searchListCss": "ul > li > div.thumb",//ul.stui-vodlist__media.col-pd.clearfix
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -635,7 +635,7 @@
             "nameCss": "",
             "nameIndex": 0,
             "regIndex": 0,
-            "regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
+            "regStr": "(?<=<video class=\"dplayer-video dplayer-video-current\" webkit-playsinline=\"\" playsinline=\"\" preload=\"metadata\" src=\")(.*)(?=\">)",
             "title": "",
             "urlAttr": "",
             "urlCss": "",
