@@ -331,7 +331,7 @@
       "webPlus": {
         "search_url": "https://994sm.com/smsearch/-------------.html?wd={kw}",
         "nav_url": "https://994sm.com/smshow/navCate--------catePage---.html",
-        "cate_url": "http://994sm.com/smshow/cateCate-cateArea-time------catePage---cateYear.html",
+        "cate_url": "http://994sm.com/smshow/navCate-cateArea-time------catePage---cateYear.html",
         "web_name": "94神马",
         "kw": "wd",
         "params": [
@@ -373,13 +373,13 @@
             "isListItemAttr": true,
             "isReg": false,
             "isRegNeedDecoder": false,
-            "listCss": "ul.fed-tabs-btm.fed-padding.fed-part-rows.fed-visible > li",
+            "listCss": "li >a",
             "isMultiList": false,
             "listCssMulti": "",
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "div.fed-tabs-foot",
+            "mainCss": "ul.fed-tabs-btm.fed-padding.fed-part-rows.fed-visible",
             "mainIndex": 0,
             "regIndexList": [
               0
@@ -408,8 +408,8 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.fed-part-layout.fed-back-whits",
-            "mainListIndex": 1,
+            "mainCss": "ul.fed-list-info.fed-part-rows",
+            "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
@@ -434,7 +434,7 @@
             "isNameAttr": true,
             "isUrlAttr": true,
             "mainCss": "div.fed-part-layout.fed-back-whits.fed-margin-right",
-            "mainListIndex": 1,
+            "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
@@ -482,19 +482,19 @@
         }
       }
     },{
-      "name": "9亿看看(无法搜)9ekk.com",
+      "name": "9亿看看",
       "pic": "https://img3.doubanio.com/view/activity_page/raw/public/p2650.jpg",
       "type": "webPlug",
       "subTitle": "清晰1080P/4K最高60帧",
-      "subMobileTitle": "清晰1080P/4K最高60帧9ehao.com",
+      "subMobileTitle": "清晰1080P/4K最高60帧9ehao.com (无法搜)9ekk.com",
       "ads": "",
       "webUrl": "https://www.9ekk.net/",
       "webOpen": false,
       "click": true,
       "webPlus": {
         "search_url": "https://www.9ekk.net/vod/search.html?wd={kw}&submit=",
-        "nav_url": "https://www.9ekk.net/vodshow/navCate/page/navPage",
-        "cate_url": "https://www.9ekk.net/vodshow/cateNav/area/cateArea/page/catePage/year/cateYear/class/cateCate",
+        "nav_url": "https://www.9ekk.net/vodshow/navCate--------navPage---.html",//https://www.9ekk.net/vodshow/navCate/page/navPage
+        "cate_url": "https://www.9ekk.net/vodshow/navCate-cateCate-------catePage---cateYear.html",//https://www.9ekk.net/vodshow/cateNav/area/cateArea/page/catePage/year/cateYear/class/cateCate
         "web_name": "9亿看看",
         "kw": "wd",
         "params": [
@@ -505,18 +505,26 @@
         ],
         "navHtml": {
           "name": [
-            "国语配音",
-            "热播电影",
-            "热播电视",
-            "热播美剧",
-            "国配外剧"
+            "电影",
+            "电视剧",
+            "动漫",
+            "综艺"
+            //"国语配音",
+            //"热播电影",
+            //"热播电视",
+            //"热播美剧",
+            //"国配外剧"
           ],
           "cate": [
-            "gypy",
-            "zuijinrebodianying",
-            "zuijinrebodianshiju",
-            "rebomeiju",
-            "guoyupeiyinhanju"
+            "dianying",
+            "lianxuju",
+            "dongman",
+            "zongyi"
+            //"gypy",
+            //"zuijinrebodianying",
+            //"zuijinrebodianshiju",
+            //"rebomeiju",
+            //"guoyupeiyinhanju"
           ],
           "page": "1"
         },
