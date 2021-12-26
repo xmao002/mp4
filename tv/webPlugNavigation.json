@@ -654,7 +654,7 @@
       "webPlus": {
         "search_url": "https://www.juztv.com/vodsearch/-------------/?wd={kw}",
         "nav_url": "http://www.yhdm2.com/navCate/2021/0/all/navPage.html",
-        "cate_url": "http://www.yhdm2.com/cateNav/cateYear/cateCate/cateArea/catePage.html https://www.wydcn.com/vod/show/id/cateNav/page/catePage/year/cateYear.html",
+        "cate_url": "http://www.yhdm2.com/cateNav/cateYear/cateCate/cateArea/catePage.html",
         "web_name": "樱花动漫2",
         "kw": "wd",
         "params": [
@@ -739,7 +739,29 @@
             "urlIndex": 0
           },
           "search": {
-            
+            "isKWInUrl": false,
+            "isWebPlay": false,
+            "descAttr": "",
+            "descCss": "span.pic-text.text-right",
+            "descIndex": 0,
+            "hasImgUrlPrefix": true,
+            "hasUrlPrefix": false,
+            "imgAttr": "data-original",
+            "imgCss": "a",
+            "imgIndex": 0,
+            "isDescAttr": false,
+            "isImgAttr": true,
+            "isNameAttr": true,
+            "isUrlAttr": true,
+            "mainCss": "ul.stui-vodlist",
+            "mainListIndex": 0,
+            "nameAttr": "title",
+            "nameCss": "a",
+            "nameIndex": 0,
+            "searchListCss": "ul > li",
+            "urlAttr": "href",
+            "urlCss": "a",
+            "urlIndex": 0
           },
           "video": {
             "episodesListCss": "",
