@@ -331,7 +331,7 @@
       "webPlus": {
         "search_url": "https://994sm.com/smsearch/-------------.html?wd={kw}",
         "nav_url": "https://994sm.com/smshow/navCate--------catePage---.html",
-        "cate_url": "http://994sm.com/smshow/navCate-cateArea-time------catePage---cateYear.html",
+        "cate_url": "http://994sm.com/smshow/cateNav-cateArea-time------catePage---cateYear.html",
         "web_name": "94神马",
         "kw": "wd",
         "params": [
@@ -373,7 +373,7 @@
             "isListItemAttr": true,
             "isReg": false,
             "isRegNeedDecoder": false,
-            "listCss": "li >a",
+            "listCss": "ul.fed-tabs-btm.fed-padding.fed-part-rows.fed-visible > li",
             "isMultiList": false,
             "listCssMulti": "",
             "listItemAttr": "href",
@@ -494,7 +494,7 @@
       "webPlus": {
         "search_url": "https://www.9ekk.net/vod/search.html?wd={kw}&submit=",
         "nav_url": "https://www.9ekk.net/vodshow/navCate--------navPage---.html",//https://www.9ekk.net/vodshow/navCate/page/navPage
-        "cate_url": "https://www.9ekk.net/vodshow/navCate-cateCate-------catePage---cateYear.html",//https://www.9ekk.net/vodshow/cateNav/area/cateArea/page/catePage/year/cateYear/class/cateCate
+        "cate_url": "https://www.9ekk.net/vodshow/cateNav-cateCate-------catePage---cateYear.html",//https://www.9ekk.net/vodshow/cateNav/area/cateArea/page/catePage/year/cateYear/class/cateCate
         "web_name": "9亿看看",
         "kw": "wd",
         "params": [
@@ -542,7 +542,7 @@
             "isListItemAttr": true,
             "isReg": false,
             "isRegNeedDecoder": false,
-            "listCss": "ul > li",
+            "listCss": "ul.stui-content__playlist > li",
             "isMultiList": false,
             "listCssMulti": "",
             "listItemAttr": "href",
@@ -582,7 +582,7 @@
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul > li",
+            "searchListCss": "ul.myui-vodlist.clearfix > li",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -607,7 +607,7 @@
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul > li",
+            "searchListCss": "ul.stui-vodlist__media.col-pd.clearfix > li",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
