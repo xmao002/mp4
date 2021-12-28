@@ -625,7 +625,7 @@
 			}
 		},{
 			"name": "南瓜影院",
-			"pic": "https://gitee.com/wpcmzjk/tv/raw/master/png/ngys1.png",
+			"pic": "http://static.yingyonghui.com/icon/128/6375279.png",
 			"type": "webPlug",
 			"subTitle": "高清无筛选(菜单键或上下键选集)",
 			"subMobileTitle": "南瓜",
@@ -855,7 +855,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "p.bz",
+            "descCss": "div.img > p.bz",
             "descIndex": 0,
             "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
@@ -871,7 +871,7 @@
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul > li",
+            "searchListCss": "ul.main > li.mb",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -1528,39 +1528,6 @@
 						"urlIndex": 0
 					},
 					"video": {
-						"episodesListCss": "",
-						"episodesMainCss": "",
-						"episodesMainIndex": 0,
-						"hasEpisodes": false,
-						"hasUrlPrefix": false,
-						"iframeAttr": "src",
-						"iframeIndex": 0,
-						"isFrame": true,
-						"isFrameProcess": false,
-						"isItemAttr": false,
-						"isNameAttr": false,
-						"isReg": true,
-						"isUrlAttr": false,
-						"itemAttr": "",
-						"itemCss": "script",
-						"itemIndex": 2,
-						"mainCss": "body",
-						"mainIndex": 0,
-						"nameAttr": "",
-						"nameCss": "",
-						"nameIndex": 0,
-						"regIndex": 0,
-						"regStr": "(?<=<video src=\")(.*)(?=\" controls=)",
-						"title": "",
-						"urlAttr": "",
-						"urlCss": "",
-						"urlIndex": 0,
-						"videoCss": "",
-						"videoIndex": 1,
-						"isVideoUrlAttr": true,
-						"videoUrlAttr": "",
-						"isFromWebView": false,
-						"js": ""
 					}
 				}
 			}
