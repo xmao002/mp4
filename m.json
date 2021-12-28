@@ -27,6 +27,7 @@
 //{"key":"ikan_spider","name":"爱看(SP)","type":3,"api":"csp_IKan","searchable":1,"quickSearch":1,"filterable":0,"ext":"A9545C889B5D"},
 //{"key": "csp_EPangApp","name": "阿房影视(爬虫)","type": 3,"api": "csp_EPangApp","searchable": 1,"quickSearch": 0,"filterable": 1},
 //以下为xpath
+{"key":"csp_yinghua2_WN","name":"@樱花动漫2_WN","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":0,"ext":"http://fj365.ml/xpath/yhdm2.json"},
 {"key":"csp_xpath_94sm_L","name":"@94神马_L","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/94sm.json"},
 {"key":"csp_xpath_jpys_L","name":"@极品_L","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/jpys.json"},
 {"key":"csp_xpath_age_L","name":"@AGE动漫_L","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/agefans.json"},
