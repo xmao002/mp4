@@ -1,7 +1,7 @@
 {
   "ua": "",
   "homeUrl": "http://www.yhdm2.com",
-  "cateNode": "//ul[contains(@class,'nav-pc')]/li/b[contains(@class,'navb')]/a/[contains(@href, '/')]",
+  "cateNode": "//ul[contains(@class,'nav-pc')]/li/b[contains(@class,'navb')]/a[contains(@href, '/')]",
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/(\\w+)/",
