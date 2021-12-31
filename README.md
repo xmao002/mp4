@@ -50,6 +50,7 @@
  ![.](/3/00001.png)
  
 ```
+ PHP读取APP影视配置中的Api接口生成 :http://www.dooccn.com/php7.4/#id/a6fc02c286d9c7ec1c571ebed9ab4369
 + http://fj365.ml/tv/maotv.json   
 + http://fj365.gitee.io/cmp4/tv/maotv.json   
 + https://raw.githubusercontent.com/fj365/CMP4/master/tv/maotv.json
