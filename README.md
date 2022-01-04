@@ -52,6 +52,7 @@
 ```
 https://litecucumber.coding.net/p/cat/d/config/git/raw/master/appys.json
  PHP读取APP影视配置中的Api接口生成 :http://www.dooccn.com/php7.4/#id/a6fc02c286d9c7ec1c571ebed9ab4369 http://www.dooccn.com/php7.4/#id/ef5179ae0d839acf44144be7ca1a7c35
+http://gg.gg/898900
 + http://fj365.ml/tv/maotv.json   
 + http://fj365.gitee.io/cmp4/tv/maotv.json   
 + https://raw.githubusercontent.com/fj365/CMP4/master/tv/maotv.json
