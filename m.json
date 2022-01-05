@@ -307,7 +307,7 @@
 {"key":"csp_appys_iptv_双子星", "name":"双子星(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"iptv_双子星"},
 {"key":"csp_appys_iptv_若惜影视", "name":"若惜影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"iptv_若惜影视"},
 {"key":"csp_appys_iptv_小极TV", "name":"小极TV(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"iptv_小极TV"},
-{"key":"csp_appys_iptv_云播影视", "name":"云播影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"iptv_云播影视"}
+{"key":"csp_appys_iptv_云播影视", "name":"云播影视(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"iptv_云播影视"},
 //以下资源列表
 {"key":"2A资源","name":"2A资源","type":1,"api":"http://zy.zcocc.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":0,"categories":[]},
 {"key":"348电影网","name":"348电影网","type":1,"api":"https://348z.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":0,"categories":[]},
