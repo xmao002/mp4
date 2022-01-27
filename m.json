@@ -104,7 +104,7 @@
 {"key":"csp_xpath_rrviprw_hy","name":"@人人影视_hd","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/hyundaic/xpath@master/rrviprw.json"},
 {"key":"csp_xpath_smdyy_hy","name":"@神马影视_hd","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/hyundaic/xpath@master/smdyy.json"},
 {"key":"csp_xpath_waipian2","name":"歪片星球_yh","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/YuanHsing/OneClickRun@master/xpath/waipian2.json"},
-
+{"key":"csp_xpath_age_WN","name":"AGE动漫_WN","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":0,"ext":"http://fj365.ml/xpath/agemys.json"},
 //{"key":"csp_xpath_2345_hy","name":"@2345影视_hd","type":3,"api":"csp_XPath","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://cdn.jsdelivr.net/gh/hyundaic/xpath@master/2345.json"},
 //以下M列表--0220106--更新
 {"key":"csp_appys_xiaogui_3080影视", "name":"3080影视_M", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"xiaogui_3080影视"},
