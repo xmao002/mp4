@@ -41,7 +41,6 @@
 + https://ci.ci/Rou
 + https://ci.ci/c6H
 + gitee https://ci.ci/DQX
-+ https://c1n.cn/cat 
 + http://fj365.ml/m.json 
 + https://fj365.gitee.io/cmp4/m.json
 + https://codeberg.org/fj365/CMP4/raw/branch/master/m.json
@@ -65,6 +64,7 @@ http://gg.gg/898900
 + http://c1n.cn/mao
 + https://c1n.cn/m1
 + https://c1n.cn/m2
++ https://c1n.cn/cat 
 + https://shuyuan.miaogongzi.net/shuyuan/1635506797.json (212757)
 + https://shuyuan.miaogongzi.net/shuyuan/1635448212.txt (maotv)
 + https://shuyuan.miaogongzi.net/shuyuan/1636121700.txt (dglxxn)
