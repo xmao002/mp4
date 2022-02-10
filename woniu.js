@@ -1104,4 +1104,4 @@ function JP_HG() {
     }
     return (mys);
 }
-setTimeout(function(){init();$(".DH_KG").show();$(".GS_KG").hide();$(".JP_KG").hide();$("#UUUU_P").remove();$("#UUUU_PG").remove();}, 200);
+setTimeout(function(){init();$(".DH_KG").show();$(".GS_KG").hide();$(".JP_KG").hide();$("#UUUU_P").remove();$("#UUUU_PG").remove();}, 150);
