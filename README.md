@@ -31,6 +31,8 @@
 * APP： 
 + https://sharerw.lanzoui.com/b0afu5apg  
 + https://github.com/catvod/CatVodTVSpider
++ https://catvod.github.io/CatVodTVJsonEditor/
++ https://netcut.cn/
 
 * TV端自建接口地址： 
 + https://sl.al/uNf
@@ -50,9 +52,10 @@
  
 ```
 https://litecucumber.coding.net/p/cat/d/config/git/raw/master/appys.json
- PHP读取APP影视配置中的Api接口生成 :http://www.dooccn.com/php7.4/#id/1efdaf719adead150dc376e2d56ba096
+https://litecucumber.coding.net/p/cat/d/config/git/raw/master/appysv2.json
+ PHP读取APP影视配置中的Api接口生成 :http://www.dooccn.com/php7.4/#id/9a3563744cb48bad163ad05197f31b4a
+ http://www.dooccn.com/php7.4/#id/1efdaf719adead150dc376e2d56ba096
  http://www.dooccn.com/php7.4/#id/a6fc02c286d9c7ec1c571ebed9ab4369 http://www.dooccn.com/php7.4/#id/ef5179ae0d839acf44144be7ca1a7c35
-http://gg.gg/898900
 + http://fj365.ml/tv/maotv.json   
 + http://fj365.gitee.io/cmp4/tv/maotv.json   
 + https://raw.githubusercontent.com/fj365/CMP4/master/tv/maotv.json
@@ -169,6 +172,7 @@ mapi:qm/https://inmemory.coding.net/p/InMemory/d/MBrowser/git/raw/master/FileGit
 ```
 阅读｜weixin｜书源
 https://mp.weixin.qq.com/s/3Oy2zs9VHj_8asvSWQ76nQ
+https://mp.weixin.qq.com/s/MPZIvTcLD_CklOwvX9gmPQ
 haxc大佬的漫画源合集：
 https://haxc.coding.net/p/booksrc/d/booksrc/git/raw/master/bookSource.json
 namofree大佬的书源（通用，精简，比较适合大多数人）：
