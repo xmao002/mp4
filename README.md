@@ -61,6 +61,7 @@ https://litecucumber.coding.net/p/cat/d/config/git/raw/master/appysv2.json
 + https://raw.githubusercontent.com/fj365/CMP4/master/tv/maotv.json
 + https://ci.ci/nsH
 + https://cdn.jsdelivr.net/gh/YuanHsing/freed@master/maoo2.json
++ http://pglblb.test.upcdn.net/mao.json
 + https://tool.wotianna.com/mysjk.json
 + https://wds.ecsxs.com/212757.json
 + http://c1n.cn/2
