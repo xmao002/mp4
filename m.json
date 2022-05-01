@@ -889,8 +889,7 @@
 {"name":"BTV文艺-高清","urls":["http://v.mp.haue.edu.cn/hls/btv2hd.m3u8"]},
 {"name":"BTV科教-高清","urls":["http://v.mp.haue.edu.cn/hls/btv3hd.m3u8"]},
 {"name":"BTV影视-高清","urls":["http://v.mp.haue.edu.cn/hls/btv4hd.m3u8"]},
-{"name":"BTV财经-高清","urls":["http://v.mp.haue.edu.cn/hls/btv5hd.m3u8"]}
-//
+{"name":"BTV财经-高清","urls":["http://v.mp.haue.edu.cn/hls/btv5hd.m3u8"]},
 {"name":"凤凰中文","urls":["http://59.44.10.113:9901/tsfile/live/1079_1.m3u8"]},
 {"name":"凤凰资讯","urls":["http://59.44.10.113:9901/tsfile/live/1078_1.m3u8"]},
 {"name":"凤凰香港","urls":["http://59.44.10.113:9901/tsfile/live/1080_1.m3u8"]},
