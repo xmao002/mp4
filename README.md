@@ -35,17 +35,7 @@
 + https://netcut.cn/
 
 * TV端自建接口地址： 
-+ https://sl.al/uNf
-+ https://sl.al/Mae 改 https://sl.al/HgK
-+ https://sl.al/Prm
-+ gitee https://sl.al/Alm
-+ https://ci.ci/ekq
-+ https://ci.ci/Rou
-+ https://ci.ci/c6H
-+ gitee https://ci.ci/DQX
 + http://fj365.ml/m.json 
-+ https://fj365.gitee.io/cmp4/m.json
-+ https://codeberg.org/fj365/CMP4/raw/branch/master/m.json
 <details>
 <summary>。。。</summary>
  ![.](/3/00001.png)
@@ -56,6 +46,16 @@ https://litecucumber.coding.net/p/cat/d/config/git/raw/master/appysv2.json
  PHP读取APP影视配置中的Api接口生成 :http://www.dooccn.com/php7.4/#id/9a3563744cb48bad163ad05197f31b4a
  http://www.dooccn.com/php7.4/#id/1efdaf719adead150dc376e2d56ba096
  http://www.dooccn.com/php7.4/#id/a6fc02c286d9c7ec1c571ebed9ab4369 http://www.dooccn.com/php7.4/#id/ef5179ae0d839acf44144be7ca1a7c35
++ https://sl.al/uNf
++ https://sl.al/Mae 改 https://sl.al/HgK
++ https://sl.al/Prm
++ gitee https://sl.al/Alm
++ https://ci.ci/ekq
++ https://ci.ci/Rou
++ https://ci.ci/c6H
++ gitee https://ci.ci/DQX
++ https://fj365.gitee.io/cmp4/m.json
++ https://codeberg.org/fj365/CMP4/raw/branch/master/m.json
 + http://fj365.ml/tv/maotv.json   
 + http://fj365.gitee.io/cmp4/tv/maotv.json   
 + https://raw.githubusercontent.com/fj365/CMP4/master/tv/maotv.json
