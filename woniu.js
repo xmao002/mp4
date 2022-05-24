@@ -654,7 +654,7 @@ function ZDFS(lsrc) {
     return QQYY('http://fj365.ga/o.php/ZDFS_' + lsrc + '-1-1.jsonp?@QQYY@&pg=1');
 }
 function WYYY(lsrc) {
-    return QQYY('http://fj365.ga/o.php/WYYY_' + lsrc + '.jsonp?&p=1');
+    return QQYY('http://fj365.ga/163.php?so=' + lsrc + '&p=1');
 }
 function YYHDJ(lsrc) {
     QQYY('http://fj365.ga/o.php/YYHDJ_'+lsrc+'.jsonp?&p=1');
