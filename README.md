@@ -27,7 +27,7 @@
 + https://cdn.jsdelivr.net/gh/fj365/CMP4@master/z.json
 <hr>
 
-# 猫影视TV
+# 猫影视TV 禁用接口已删全部文件
 * APP： 
 + https://sharerw.lanzoui.com/b0afu5apg  
 + https://github.com/catvod/CatVodTVSpider
