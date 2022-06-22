@@ -15,8 +15,7 @@
 // https://xxx/xgapp.php/v2/
 // http://xxx/mogai_api.php/v1.vod
 //http://iapp.nfuxs.club/nfuxs.php/v1.vod
-{"name":"默认主页","url":"http://iapp.nfuxs.club/nfuxs.php/v1.vod"},
-{"name":"默认主页2","url":"https://www.tegouys.com/xgapp.php/v2/"},
+{"name":"默认主页","url":"https://www.tegouys.com/xgapp.php/v2/"},
 {"name":"追剧TV(萝卜)","url":"http://111.229.120.180:88/lvdou_api.php/v2.vod"},
 {"name":"渔渔影视(萝卜)","url":"http://luobo.yugenye.site/api.php/v1.vod"},
 {"name":"余生影视(萝卜)","url":"http://yu.cuicanys.cn/lvdou_api.php/v1.vod"},
@@ -260,7 +259,8 @@
 {"name":"独优影视(神马)","url":"http://121.205.88.71:218/api.php/Chengcheng/vod/"},
 {"name":"CV影视(神马)","url":"http://www.cccvvv.top/api.php/iptv/vod/"},
 {"name":"369TV(神马)","url":"http://8.142.23.147:555/api.php/Chengcheng/vod/"},
-{"name":"2号币(神马)","url":"http://phoebe.cf/api.php/iptv/vod/"}
+{"name":"2号币(神马)","url":"http://phoebe.cf/api.php/iptv/vod/"},
+{"name":"环","url":"http://wmcj8.com/inc/sapi.php"}
 ],
 
 "lunbo":[
