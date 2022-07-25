@@ -27,16 +27,17 @@
 + https://cdn.jsdelivr.net/gh/fj365/CMP4@master/z.json
 <hr>
 
-# 猫影视TV 禁用接口已删全部文件
-* APP： 
+# TVBOX 替代 猫影视TV（猫官宣停用）
+* APP： https://github.com/o0HalfLife0o/TVBoxOSC/releases
+* 使用教程： https://support.qq.com/products/336415/blog/515688
+<details>
+<summary>。。。</summary>
 + B6 https://wwa.lanzoui.com/i80X306b7soh 
 + B6 采用本地接口（开启存储权限》下载压缩包》扫码上传）：http://fj365.ml/0/x.zip http://fj365.ml/0/t.zip http://fj365.ml/0/b.zip 
 + https://sharerw.lanzoui.com/b0afu5apg  
 + https://github.com/catvod/CatVodTVSpider
 + https://catvod.github.io/CatVodTVJsonEditor/
 + https://netcut.cn/
-<details>
-<summary>。。。</summary>
 * TV端自建接口地址： 
 + http://fj365.ml/m.json 
  ![.](/3/00001.png)
