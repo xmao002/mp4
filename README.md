@@ -84,11 +84,12 @@ https://litecucumber.coding.net/p/cat/d/config/git/raw/master/appysv2.json
 + https://cdn.jsdelivr.net/gh/hasoelee/hasoe/maoys.json (xml-爬虫)
 + https://netcut.cn/p/b3c2125358956dde (xml资源)
  ```
- </details>
+
 
 * TV端自建CDN接口地址:  
 + https://raw.fastgit.org/fj365/CMP4/master/m.json
 + https://cdn.jsdelivr.net/gh/fj365/CMP4@master/m.json
+ </details>
 <hr>
 
 # 残影影视TV
