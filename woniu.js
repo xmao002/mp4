@@ -1070,9 +1070,9 @@ http://www.52xsu.cn/video.php?_t=0.457333185648348
 http://xjj.nbtd.vip/get/get2.php   1-6
 */
 	var sjxjjlb = '[';
-	for(var i=0;i<=100;i++){
-		sjxjjlb += '{m4v:"http://mp4.wchunge.cn/api2.php?_t=' + TIME('T') + i + '",title:"' + i + '"},';
-	}
+	//for(var i=0;i<=100;i++){
+		//sjxjjlb += '{m4v:"http://mp4.wchunge.cn/api2.php?_t=' + TIME('T') + i + '",title:"' + i + '"},';
+	//}
 	for(var ia=0;ia<=100;ia++){
 		sjxjjlb += '{m4v:"https://wsonx.com/tool/ksxjj/video.php?_t=' + TIME('T') + ia + '",title:"' + ia + '"},';
 	}
