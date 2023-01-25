@@ -24,7 +24,7 @@ function FX_ZYS(lsrc) {
 }
 $(document).ready(function() {
     var item,so_val,so_so,so_str,so_s1,so_s2;
-    $('#MModal').modal('hide');
+    //$('#MModal').modal('hide');
     so_so = (window.location.search.substring(1)).replace(/\+/g, "%20");
     if (so_so.indexOf('SO=') > -1) {
         QQYY(G_Q_S('SO'))
@@ -201,7 +201,7 @@ $(document).ready(function() {
     })
 });
 $(document).ready(function() {
-    WNJP = new jPlayerPlaylist({
+    var WNJP = new jPlayerPlaylist({
         jPlayer: "#jquery_jplayer_1",
         cssSelectorAncestor: "#jp_container_1"
     }, [], {
