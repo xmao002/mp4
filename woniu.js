@@ -1,4 +1,4 @@
-var L_B,L_P,time,url_s,url_p,jp_lb,lb_lb,lb_fy,pns,pn,mys,myx,myy,myld,myid,mymz,mysrc,mypng,myxo,fypp_lb;var times = new Date();
+var L_B,L_P,WNJP,time,url_s,url_p,jp_lb,lb_lb,lb_fy,pns,pn,mys,myx,myy,myld,myid,mymz,mysrc,mypng,myxo,fypp_lb;var times = new Date();
 function MY_E2H(str) {
     var arrEntities = {'lt': '<','gt': '>','nbsp': ' ','amp': '&','quot': '"'};
     return str.replace(/&(lt|gt|nbsp|amp|quot);/ig, function(all, t) {
@@ -24,7 +24,7 @@ function FX_ZYS(lsrc) {
 }
 $(document).ready(function() {
     var item,so_val,so_so,so_str,so_s1,so_s2;
-    //$('#MModal').modal('hide');
+    $('#MModal').modal('hide');
     so_so = (window.location.search.substring(1)).replace(/\+/g, "%20");
     if (so_so.indexOf('SO=') > -1) {
         QQYY(G_Q_S('SO'))
@@ -201,7 +201,6 @@ $(document).ready(function() {
     })
 });
 $(document).ready(function() {
-var WNJP;
     WNJP = new jPlayerPlaylist({
         jPlayer: "#jquery_jplayer_1",
         cssSelectorAncestor: "#jp_container_1"
