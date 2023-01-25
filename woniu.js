@@ -1,4 +1,4 @@
-var L_B,L_P,WNJP,time,url_s,url_p,jp_lb,lb_lb,lb_fy,pns,pn,mys,myx,myy,myld,myid,mymz,mysrc,mypng,myxo,fypp_lb;var times = new Date();
+var L_B,L_P,time,url_s,url_p,jp_lb,lb_lb,lb_fy,pns,pn,mys,myx,myy,myld,myid,mymz,mysrc,mypng,myxo,fypp_lb;var times = new Date();
 function MY_E2H(str) {
     var arrEntities = {'lt': '<','gt': '>','nbsp': ' ','amp': '&','quot': '"'};
     return str.replace(/&(lt|gt|nbsp|amp|quot);/ig, function(all, t) {
@@ -23,6 +23,7 @@ function FX_ZYS(lsrc) {
     $("#FX_ZY").attr('href', 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://fj365.ml/%3F' + myid + '%3D' + encodeURIComponent(mysrc) + '&title=' + encodeURIComponent(mymz) + '&desc=%E9%BE%92%E8%9C%97%E7%89%9BD%E6%BB%9A%E7%90%83%E5%BD%B1%E9%9F%B3&site=%E9%BE%92%E8%9C%97%E7%89%9BD&summary=%E9%BE%92%E8%9C%97%E7%89%9BD%E6%BB%9A%E7%90%83%E5%BD%B1%E9%9F%B3_Q%3A121027740%0A&pics=' + encodeURIComponent(mypng) + '&showcount=1');
 }
 $(document).ready(function() {
+var WNJP;
     var item,so_val,so_so,so_str,so_s1,so_s2;
     //$('#MModal').modal('hide');
     so_so = (window.location.search.substring(1)).replace(/\+/g, "%20");
@@ -201,7 +202,7 @@ $(document).ready(function() {
     })
 });
 $(document).ready(function() {
-    var WNJP = new jPlayerPlaylist({
+    WNJP = new jPlayerPlaylist({
         jPlayer: "#jquery_jplayer_1",
         cssSelectorAncestor: "#jp_container_1"
     }, [], {
