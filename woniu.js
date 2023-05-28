@@ -590,7 +590,7 @@ function KUGOU(lsrc) {
 function kglist_success_jsonpCallback(data, kid, pn, pns) {
     jp_lb = '[';var myss,mysss,myssss,pgs;
     $.each(data, function(k, v) {
-        jp_lb += '{mp3:"http://fj365.ga/m.php/KG_' + v.FileHash + '.mp3",title:"' + safeStr(v.FileName) + '"},'//hash filename HQFileHash MvHash SQFileHashhttp://fj365.ga/o.php/KUGOU_' + v.FileHash + '.mp3
+        jp_lb += '{mp3:"http://fj365.ga/o.php/KG_' + v.FileHash + '.mp3",title:"' + safeStr(v.FileName) + '"},'//hash filename HQFileHash MvHash SQFileHashhttp://fj365.ga/o.php/KUGOU_' + v.FileHash + '.mp3
     });
     jp_lb += ']';
     eval("kugou_lb=" + jp_lb);
