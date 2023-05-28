@@ -191,10 +191,10 @@ $(document).ready(function() {
 				if (so_val.indexOf("http") > -1) {
 					QQYY(so_val);
 				}else{
-					//FX_ZYS('KUGOU@@@'+so_val+'@@@'+so_val+'@@@APKPNG@6445467.png');
-					//KUGOU(so_val);
-					FX_ZYS('WYYY@@@'+so_val+'@@@'+so_val+'@@@APKPNG@5934938.png');
-					WYYY(so_val);
+					FX_ZYS('KUGOU@@@'+so_val+'@@@'+so_val+'@@@APKPNG@6445467.png');
+					KUGOU(so_val);
+					//FX_ZYS('WYYY@@@'+so_val+'@@@'+so_val+'@@@APKPNG@5934938.png');
+					//WYYY(so_val);
 				}
 				
         }
