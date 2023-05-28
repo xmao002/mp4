@@ -176,8 +176,8 @@ $(document).ready(function() {
 				FX_ZYS('XMLYSO@@@'+so_val+'@@@'+so_val+'@@@APKPNG@6389978.png');
                 XMLYSO(so_val);
                 break;
-            case 'SGTP_SO':
-                SGPNGS(so_val);
+            case 'YHDM_SO':
+                YHDM(so_val);
                 break;
             case 'ERWMA':
 				FX_ZYS('MAPNG@@@'+so_val+'@@@'+so_val+'@@@APKPNG@6609272.png');
@@ -699,7 +699,7 @@ function KANDQ(lsrc) {
     return QQYY('http://fj365.ga/o.php/KAN360_' + lsrc + '.json?@QQYY@&pg=1');
 }
 function YHDM(lsrc) {
-    return QQYY('http://fj365.ga/o.php/ZYSO_' + lsrc + '-1-S006.txt?@00@');
+    return QQYY('http://fj365.ga/o.php/ZYSO_'+lsrc+'-1-SO.yhdm?@00@');
 }
 function XMLYSO(lsrc) {
     if (lsrc.indexOf("@") > -1) {
