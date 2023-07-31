@@ -20,7 +20,7 @@ function FX_ZYS(lsrc) {
     mysrc = (myx[2]).replace('?', '%25253F').replace(/@/g, '%252540');
     mymz = myx[3];
     mypng = TH_PNG(myx[4]);
-    $("#FX_ZY").attr('href', 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://fj365.ml/%3F' + myid + '%3D' + encodeURIComponent(mysrc) + '&title=' + encodeURIComponent(mymz) + '&desc=%E9%BE%92%E8%9C%97%E7%89%9BD%E6%BB%9A%E7%90%83%E5%BD%B1%E9%9F%B3&site=%E9%BE%92%E8%9C%97%E7%89%9BD&summary=%E9%BE%92%E8%9C%97%E7%89%9BD%E6%BB%9A%E7%90%83%E5%BD%B1%E9%9F%B3_Q%3A121027740%0A&pics=' + encodeURIComponent(mypng) + '&showcount=1');
+    $("#FX_ZY").attr('href', 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://s.wo0.cn/%3F' + myid + '%3D' + encodeURIComponent(mysrc) + '&title=' + encodeURIComponent(mymz) + '&desc=%E9%BE%92%E8%9C%97%E7%89%9BD%E6%BB%9A%E7%90%83%E5%BD%B1%E9%9F%B3&site=%E9%BE%92%E8%9C%97%E7%89%9BD&summary=%E9%BE%92%E8%9C%97%E7%89%9BD%E6%BB%9A%E7%90%83%E5%BD%B1%E9%9F%B3_Q%3A121027740%0A&pics=' + encodeURIComponent(mypng) + '&showcount=1');
 }
 $(document).ready(function() {
     var item,so_val,so_so,so_str,so_s1,so_s2;
@@ -434,7 +434,7 @@ function QQYY_success_jsonpCallback(data, fy) {
 			}
         }
     }
-	if(typeof(fy) == "undefined" || fy.indexOf("w.wo0.cn/jp/jsonp/") > -1 || fy.indexOf("fj365.ml/jsonp/") > -1 || fy.indexOf("KAN360_") > -1){
+	if(typeof(fy) == "undefined" || fy.indexOf("w.wo0.cn/jp/jsonp/") > -1 || fy.indexOf("s.wo0.cn/jsonp/") > -1 || fy.indexOf("KAN360_") > -1){
         L_P = '';
     }
     $("#JP_HL").html(L_B + L_P);
@@ -466,7 +466,7 @@ function QQYYS_success_jsonpCallback(data, fy) {
     }else{
 		L_B += '<div class="text-center" style="margin: 0 1px 100px 1px;"></div>';
 	}
-    if(typeof(fy) == "undefined" || fy.indexOf("w.wo0.cn/jp/jsonp/") > -1 || fy.indexOf("fj365.ml/jsonp/") > -1 || fy.indexOf(".txt") > -1 || fy.indexOf("@KANSP@") > -1){L_P = '';}
+    if(typeof(fy) == "undefined" || fy.indexOf("w.wo0.cn/jp/jsonp/") > -1 || fy.indexOf("s.wo0.cn/jsonp/") > -1 || fy.indexOf(".txt") > -1 || fy.indexOf("@KANSP@") > -1){L_P = '';}
     $('#GS_HL').html(L_B + L_P);
 }
 function init(){
@@ -759,7 +759,7 @@ function PNGS(lid) {
         cache: true,
         async: true,
         type: "GET",
-        url: '//api.fj365.ml/apipng.php',
+        url: '//api.s.wo0.cn/apipng.php',
         data: "cid=" + url_s + "&start=" + url_p + "&count=30",
         dataType: "json",
         contentType: "application/json; charset=utf-8",
@@ -947,7 +947,7 @@ function TH_URL(str,type){
 	return urls;
 }
 function safeurl(str){
-    return str.replace('SWNP@','http://fj365.ga/o.php/').replace('WWNJ@','http://w.wo0.cn/jp/jsonp/').replace('FWNJ@','http://fj365.ml/jsonp/').replace('EWNJ@','http://fj365.gitee.io/cmp4/jsonp/').replace('CDN@','https://cdn.jsdelivr.net/gh/fj365/CMP4@master/jsonp/').replace('WNPG@','.jsonp?@QQYY@&pg=1').replace('@S','-1-S006.txt?@00@');
+    return str.replace('SWNP@','http://fj365.ga/o.php/').replace('WWNJ@','http://w.wo0.cn/jp/jsonp/').replace('FWNJ@','http://s.wo0.cn/jsonp/').replace('EWNJ@','http://fj365.gitee.io/cmp4/jsonp/').replace('CDN@','https://cdn.jsdelivr.net/gh/fj365/CMP4@master/jsonp/').replace('WNPG@','.jsonp?@QQYY@&pg=1').replace('@S','-1-S006.txt?@00@');
 }
 function safeStr(str){
     return str.replace(/<1>/g, "").replace(/<\/1>/g, "").replace(/</g, '').replace(/>/g, '').replace(/"/g, "").replace(/'/g, "");
