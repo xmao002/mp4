@@ -1,5 +1,6 @@
 # FongMi 蜜蜂
 * 多接口(历史接口里面切换)：
+ + http://s.wo0.cn/m.json
  + http://s.wo0.cn/0/d.json
 # FREEDTV
 * APP：
