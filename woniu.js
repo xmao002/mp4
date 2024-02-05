@@ -392,7 +392,7 @@ function QQYY(lsrc) {
 			AJAX(url_s);
 		}
     } else {
-        //url_s = 'http://fj365.ga/o.php/QQZY_' + decodeURIComponent(lsrc)+'.jsonp?&p=1';//http://s.wo0.cn/php/qqyy.php?type=jsonp&so=
+        //url_s = 'http://fj365.evai.pl/o.php/QQZY_' + decodeURIComponent(lsrc)+'.jsonp?&p=1';//http://s.wo0.cn/php/qqyy.php?type=jsonp&so=
 		//AJAX(url_s); 
 		KUGOU(decodeURIComponent(lsrc));
     }
@@ -537,11 +537,11 @@ function ZY_DATA(json,type,active){
 			D_00 = (json[i][key]).match(/^(.+)&_&(.+)$/, "$1$2");
 			D_02=TH_PNG(D_00[2]);
 			if(type === 'XQ'){
-				D_lb +="<li><a href=\"javascript:QQYY(\'http://fj365.ga/o.php/"+key+"\');\"onclick=\"javascript:FX_ZYS(\'QQYY@@@http://fj365.ga/o.php/"+key+"@@@"+D_00[1]+"@@@"+D_02+"\');\"><img class=\"lazy\"data-original=\""+D_02+"\"width=\"50\"height=\"58\"class=\"r r-2x img-full\"style=\"\"></a><span class=\"glyphicon-class\"><a href=\"javascript:QQYY(\'http://fj365.ga/o.php/"+key+"\')\"class=\"text-ellipsis\"title=\""+D_00[1]+"\">"+D_00[1]+"</a></span></li>";
+				D_lb +="<li><a href=\"javascript:QQYY(\'http://fj365.evai.pl/o.php/"+key+"\');\"onclick=\"javascript:FX_ZYS(\'QQYY@@@http://fj365.evai.pl/o.php/"+key+"@@@"+D_00[1]+"@@@"+D_02+"\');\"><img class=\"lazy\"data-original=\""+D_02+"\"width=\"50\"height=\"58\"class=\"r r-2x img-full\"style=\"\"></a><span class=\"glyphicon-class\"><a href=\"javascript:QQYY(\'http://fj365.evai.pl/o.php/"+key+"\')\"class=\"text-ellipsis\"title=\""+D_00[1]+"\">"+D_00[1]+"</a></span></li>";
 			}else if(type === 'A'){
 				D_lb +="<li><a href=\""+key+"\"target=\"_blank\"><img class=\"lazy\"data-original=\""+D_02+"\"width=\"50\"height=\"58\"class=\"r r-2x img-full\"style=\"\"></a><span class=\"glyphicon-class\"><a href=\""+key+"\"target=\"_blank\"class=\"text-ellipsis\"title=\""+D_00[1]+"\">"+D_00[1]+"</a></span></li>";
 			}else if(type === 'L'){
-				D_lb +="<li><a href=\"javascript:QQYY(\'http://fj365.ga/o.php/"+key+"\');\"onclick=\"javascript:FX_ZYS(\'QQYY@@@http://fj365.ga/o.php/"+key+"@@@"+D_00[1]+"@@@"+D_02+"\');\"><img class=\"lazy\"data-original=\""+D_02+"\"width=\"50\"height=\"58\"class=\"r r-2x img-full\"style=\"\"></a><span class=\"glyphicon-class\"><a href=\"javascript:QQYY(\'http://fj365.ga/o.php/"+key+"\')\"class=\"text-ellipsis\"title=\""+D_00[1]+"\">"+D_00[1]+"</a></span></li>";
+				D_lb +="<li><a href=\"javascript:QQYY(\'http://fj365.evai.pl/o.php/"+key+"\');\"onclick=\"javascript:FX_ZYS(\'QQYY@@@http://fj365.evai.pl/o.php/"+key+"@@@"+D_00[1]+"@@@"+D_02+"\');\"><img class=\"lazy\"data-original=\""+D_02+"\"width=\"50\"height=\"58\"class=\"r r-2x img-full\"style=\"\"></a><span class=\"glyphicon-class\"><a href=\"javascript:QQYY(\'http://fj365.evai.pl/o.php/"+key+"\')\"class=\"text-ellipsis\"title=\""+D_00[1]+"\">"+D_00[1]+"</a></span></li>";
 			}else if(type === 'XX'){
 				D_lb +="<li><a href=\""+TH_URL(key,'')+"\"onclick=\"javascript:FX_ZYS(\'"+TH_URL(key,'FX')+"@@@"+D_00[1]+"@@@"+D_02+"\');\"><img class=\"lazy\"data-original=\""+D_02+"\"width=\"50\"height=\"58\"class=\"r r-2x img-full\"style=\"\"></a><span class=\"glyphicon-class\"><a href=\""+TH_URL(key)+"\"class=\"text-ellipsis\"title=\""+D_00[1]+"\">"+D_00[1]+"</a></span></li>";
 			}
@@ -591,7 +591,7 @@ function KUGOU(lsrc) {
 function kglist_success_jsonpCallback(data, kid, pn, pns) {
     jp_lb = '[';var myss,mysss,myssss,pgs;
     $.each(data, function(k, v) {
-        jp_lb += '{mp3:"http://fj365.ga/o.php/KG_' + v.FileHash + '.mp3",title:"' + safeStr(v.FileName) + '"},'//hash filename HQFileHash MvHash SQFileHashhttp://fj365.ga/o.php/KUGOU_' + v.FileHash + '.mp3
+        jp_lb += '{mp3:"http://fj365.evai.pl/o.php/KG_' + v.FileHash + '.mp3",title:"' + safeStr(v.FileName) + '"},'//hash filename HQFileHash MvHash SQFileHashhttp://fj365.evai.pl/o.php/KUGOU_' + v.FileHash + '.mp3
     });
     jp_lb += ']';
     eval("kugou_lb=" + jp_lb);
@@ -602,19 +602,19 @@ function kglist_success_jsonpCallback(data, kid, pn, pns) {
         if (k % 2 == 0){myxo = 'style="background-color: rgba(255, 255, 255, 0.3);"';}else{myxo = 'style="background-color: rgba(185, 185, 185, 0.5);"';}
 		/*
 		if ((v.HQExtName).indexOf("mp3") > -1){
-			myss = '&nbsp;<a href="http://fj365.ga/m.php/KG_' + v.HQFileHash + '.mp3" download="' + safeStr(v.FileName) + '.mp3">HQ</a>&nbsp;'; 
+			myss = '&nbsp;<a href="http://fj365.evai.pl/m.php/KG_' + v.HQFileHash + '.mp3" download="' + safeStr(v.FileName) + '.mp3">HQ</a>&nbsp;'; 
 		}else{myss = '&nbsp;'}
 		if ((v.SQExtName).indexOf("flac") > -1){
-			mysss = '&nbsp;<a href="http://fj365.ga/m.php/KG_' + v.SQFileHash + '.mp3" download="' + safeStr(v.FileName) + '.flac">SQ</a>&nbsp;';
+			mysss = '&nbsp;<a href="http://fj365.evai.pl/m.php/KG_' + v.SQFileHash + '.mp3" download="' + safeStr(v.FileName) + '.flac">SQ</a>&nbsp;';
 		}else{mysss = '&nbsp;'}
 		
 		
 		*/
 		//' + mysss + myss + '' + myssss + '
 	    if (parseInt(v.MvType) > 0){
-			myssss = '<a href="javascript:JP_ADD(\'m4v,mv,http://fj365.ga/o.php/KG_' + v.MvHash + '.mkv\')">MV</a>&nbsp;';// download="' + safeStr(v.FileName) + '.mkv"
+			myssss = '<a href="javascript:JP_ADD(\'m4v,mv,http://fj365.evai.pl/o.php/KG_' + v.MvHash + '.mkv\')">MV</a>&nbsp;';// download="' + safeStr(v.FileName) + '.mkv"
 		}else{myssss = '&nbsp;'}
-		L_B += '<tr><td><p class="txt"><a href="javascript:WNJP.play(' + k + ');"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>&nbsp;' + safeStr(v.FileName) + '</a></p></td><td><p class="tds">' + myssss + '<a href="http://fj365.ga/o.php/KG_' + v.FileHash + '.mp3" download="' + safeStr(v.FileName) + '.mp3"style="float: right;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></p></td></tr>';
+		L_B += '<tr><td><p class="txt"><a href="javascript:WNJP.play(' + k + ');"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>&nbsp;' + safeStr(v.FileName) + '</a></p></td><td><p class="tds">' + myssss + '<a href="http://fj365.evai.pl/o.php/KG_' + v.FileHash + '.mp3" download="' + safeStr(v.FileName) + '.mp3"style="float: right;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></p></td></tr>';
     });
     L_B += '</tbody></table>';
     if((parseInt(pn) - 5) <= 0){pgs = 1;}else{pgs = (parseInt(pn) - 5);}
@@ -633,83 +633,83 @@ function kglist_success_jsonpCallback(data, kid, pn, pns) {
 }
 function SGDJ(lsrc) {
     if (lsrc.indexOf("/") > -1) {
-        return QQYY('http://fj365.ga/ik123.php?lid=' + lsrc + '&p=1');
+        return QQYY('http://fj365.evai.pl/ik123.php?lid=' + lsrc + '&p=1');
     } else {
-        //return QQYY('http://fj365.ga/ik123.php?kid=' + lsrc + '')
-		return QQYY('http://fj365.ga/o.php/SGDJ_' + lsrc + '.jsonp?&p=1');
+        //return QQYY('http://fj365.evai.pl/ik123.php?kid=' + lsrc + '')
+		return QQYY('http://fj365.evai.pl/o.php/SGDJ_' + lsrc + '.jsonp?&p=1');
     }
 }
 function KANSP(lsrc) {
-    return QQYY('http://fj365.ga/o.php/KAN360_' + lsrc + '.jsonp?@KANSP@&pg=1');
+    return QQYY('http://fj365.evai.pl/o.php/KAN360_' + lsrc + '.jsonp?@KANSP@&pg=1');
 }
 function ZYSOTXT(lsrc,xxx) {
-	return QQYY('http://fj365.ga/o.php/ZYSO_' + lsrc + '-1-S00' + xxx + '.txt?@all@&pg=1');
+	return QQYY('http://fj365.evai.pl/o.php/ZYSO_' + lsrc + '-1-S00' + xxx + '.txt?@all@&pg=1');
 }
 function LRTS(lsrc) {
-	return QQYY('http://fj365.ga/o.php/LRTSFM_' + lsrc + '.so?@all@@&pg=1');
+	return QQYY('http://fj365.evai.pl/o.php/LRTSFM_' + lsrc + '.so?@all@@&pg=1');
 }
 function ZDZY(lsrc) {
-    return QQYY('http://fj365.ga/o.php/ZYSO_' + lsrc + '-1-SO.jsonp?@all@');
+    return QQYY('http://fj365.evai.pl/o.php/ZYSO_' + lsrc + '-1-SO.jsonp?@all@');
 }
 function ZDFS(lsrc) {
-    return QQYY('http://fj365.ga/o.php/ZDFS_' + lsrc + '-1-1.jsonp?@QQYY@&pg=1');
+    return QQYY('http://fj365.evai.pl/o.php/ZDFS_' + lsrc + '-1-1.jsonp?@QQYY@&pg=1');
 }
 function WYYY(lsrc) {
-    return QQYY('http://fj365.ga/163.php?so=' + lsrc + '&p=1');
+    return QQYY('http://fj365.evai.pl/163.php?so=' + lsrc + '&p=1');
 }
 function YYHDJ(lsrc) {
-    QQYY('http://fj365.ga/o.php/YYHDJ_'+lsrc+'.jsonp?&p=1');
+    QQYY('http://fj365.evai.pl/o.php/YYHDJ_'+lsrc+'.jsonp?&p=1');
 }
 function KUGOUS(lsrc) {
-    return QQYY('http://fj365.ga/o.php/KUGOU_' + lsrc + '.jsonp?@KUGOU@');
+    return QQYY('http://fj365.evai.pl/o.php/KUGOU_' + lsrc + '.jsonp?@KUGOU@');
 }
 function APKS(lsrc) {
-    return QQYY('http://fj365.ga/o.php/ZDFS_' + lsrc + '.jsonp?@apk@&pg=1');
+    return QQYY('http://fj365.evai.pl/o.php/ZDFS_' + lsrc + '.jsonp?@apk@&pg=1');
 }
 function KUWOS(lsrc) {
-    return QQYY('http://fj365.ga/o.php/KUWO_' + lsrc + '.jsonp?&p=0');
+    return QQYY('http://fj365.evai.pl/o.php/KUWO_' + lsrc + '.jsonp?&p=0');
 }
 function KUWOMVS(lsrc) {
-    return QQYY('http://fj365.ga/o.php/KUWO_' + lsrc + '.json?&p=0');
+    return QQYY('http://fj365.evai.pl/o.php/KUWO_' + lsrc + '.json?&p=0');
 }
 function MIGUS(lsrc) {
-    return QQYY('http://fj365.ga/o.php/MIGU_' + lsrc + '.jsonp?&p=1');
+    return QQYY('http://fj365.evai.pl/o.php/MIGU_' + lsrc + '.jsonp?&p=1');
 }
 function YYSQ(lsrc) {
-    return QQYY('http://fj365.ga/o.php/YYMV_' + lsrc + '.jsonp?&p=1');
+    return QQYY('http://fj365.evai.pl/o.php/YYMV_' + lsrc + '.jsonp?&p=1');
 }
 function XMLYFM(lsrc) {
-    return QQYY('http://www.fj365.ga/wp-content/themes/WebStack-1.1422/xmly.php?lid=' + lsrc + '&p=1');
+    return QQYY('http://www.fj365.evai.pl/wp-content/themes/WebStack-1.1422/xmly.php?lid=' + lsrc + '&p=1');
 }
 function XMLYS(lsrc) {
 	if (lsrc.indexOf("__") > -1) {
 	myx = (/^([0-9a-z]+)__([0-9a-z]+)$/g).exec(lsrc);url_s = myx[1];url_p = myx[2];
 	}else{url_s = lsrc;url_p = '';}
-    return QQYY('http://www.fj365.ga/wp-content/themes/WebStack-1.1422/xmly.php?kid=' + url_s + '&cid=' + url_p + '&pg=1&@all@.json');
+    return QQYY('http://www.fj365.evai.pl/wp-content/themes/WebStack-1.1422/xmly.php?kid=' + url_s + '&cid=' + url_p + '&pg=1&@all@.json');
 }
 function QQDJS(lsrc) {
-    return QQYY('http://fj365.ga/o.php/QQZB_' + lsrc + '.jsonp?&p=1');
+    return QQYY('http://fj365.evai.pl/o.php/QQZB_' + lsrc + '.jsonp?&p=1');
 }
 function HUYATV(lsrc) {
-    return QQYY('http://fj365.ga/o.php/HYZB_' + lsrc + '.jsonp?&p=1');
+    return QQYY('http://fj365.evai.pl/o.php/HYZB_' + lsrc + '.jsonp?&p=1');
 }
 function YKLFZB(lsrc) {
-    return QQYY('http://fj365.ga/o.php/YKZB_' + lsrc + '.json?&p=1');
+    return QQYY('http://fj365.evai.pl/o.php/YKZB_' + lsrc + '.json?&p=1');
 }
 function KANDQ(lsrc) {
-    return QQYY('http://fj365.ga/o.php/KAN360_' + lsrc + '.json?@QQYY@&pg=1');
+    return QQYY('http://fj365.evai.pl/o.php/KAN360_' + lsrc + '.json?@QQYY@&pg=1');
 }
 function YHDM(lsrc) {
-    return QQYY('http://fj365.ga/o.php/ZYSO_'+lsrc+'-1-SO.yhdm?@00@');
+    return QQYY('http://fj365.evai.pl/o.php/ZYSO_'+lsrc+'-1-SO.yhdm?@00@');
 }
 function XMLYSO(lsrc) {
     if (lsrc.indexOf("@") > -1) {
         myx = (/^(.+)@([0-9]+)$/g).exec(lsrc);
         url_s = myx[1];
         url_p = myx[2];
-        return QQYY('http://www.fj365.ga/wp-content/themes/WebStack-1.1422/xmly.php?so=' + url_s + '&pg=' + url_p + '&@xmlyfm@.json');
+        return QQYY('http://www.fj365.evai.pl/wp-content/themes/WebStack-1.1422/xmly.php?so=' + url_s + '&pg=' + url_p + '&@xmlyfm@.json');
     } else {
-        return QQYY('http://www.fj365.ga/wp-content/themes/WebStack-1.1422/xmly.php?so=' + lsrc + '&pg=1&@xmlyfm@.json');
+        return QQYY('http://www.fj365.evai.pl/wp-content/themes/WebStack-1.1422/xmly.php?so=' + lsrc + '&pg=1&@xmlyfm@.json');
     }
 }
 
@@ -947,7 +947,7 @@ function TH_URL(str,type){
 	return urls;
 }
 function safeurl(str){
-    return str.replace('SWNP@','http://fj365.ga/o.php/').replace('WWNJ@','http://w.wo0.cn/jp/jsonp/').replace('FWNJ@','http://s.wo0.cn/jsonp/').replace('EWNJ@','http://fj365.gitee.io/cmp4/jsonp/').replace('CDN@','https://cdn.jsdelivr.net/gh/fj365/CMP4@master/jsonp/').replace('WNPG@','.jsonp?@QQYY@&pg=1').replace('@S','-1-S006.txt?@00@').replace('YUEDU@','yuedu://booksource/importonline?src=');
+    return str.replace('SWNP@','http://fj365.evai.pl/o.php/').replace('WWNJ@','http://w.wo0.cn/jp/jsonp/').replace('FWNJ@','http://s.wo0.cn/jsonp/').replace('EWNJ@','http://fj365.gitee.io/cmp4/jsonp/').replace('CDN@','https://cdn.jsdelivr.net/gh/fj365/CMP4@master/jsonp/').replace('WNPG@','.jsonp?@QQYY@&pg=1').replace('@S','-1-S006.txt?@00@').replace('YUEDU@','yuedu://booksource/importonline?src=');
 }
 function safeStr(str){
     return str.replace(/<1>/g, "").replace(/<\/1>/g, "").replace(/</g, '').replace(/>/g, '').replace(/"/g, "").replace(/'/g, "");
