@@ -1,14 +1,14 @@
 {
     "urls": [ 
         {
-            "url": "https://神器每日推送.tk/pz.json",
-            "name": "🚀神器线路"
-        },{
             "url": "https://agit.ai/butterfly/gaotianliuyun/raw/commit/0c2949a84e06cabbf90a2bf74d6a54fa330190f5/0825.json",
             "name": "🚀0825线路"
         },{
             "url": "https://xhdwc.tk/0",
             "name": "🚀线路二"
+        },{
+            "url": "https://神器每日推送.tk/pz.json",
+            "name": "🚀神器线路"
         }, 
         {
             "url": "https://tv.203511.xyz/0821.json",
