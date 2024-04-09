@@ -1,7 +1,10 @@
 {
 	"urls": [{
+            "url": "http://tvbox.王二小放牛娃.xyz",
+            "name": "🪐放牛线路-龒蜗牛D推荐"
+        },{
 		"url": "https://tv.菜妮丝.top/",
-		"name": "🚀菜泥丝-小蜗牛推荐"
+		"name": "🚀菜泥丝"
 	},{
 		"url": "https://agit.ai/butterfly/gaotianliuyun/raw/commit/0c2949a84e06cabbf90a2bf74d6a54fa330190f5/0825.json",
 		"name": "🚀0825线路"
@@ -78,9 +81,6 @@
         {
             "url": "http://api.wemtime.com/TVBOX/a.json",
             "name": "🪐阿星线路"
-        },{
-            "url": "http://tvbox.王二小放牛娃.xyz",
-            "name": "🪐放牛线路"
         },{
 		"url": "http://我不是.肥猫.love:63/接口禁止贩卖",
 		"name": "🚀肥猫线路"
