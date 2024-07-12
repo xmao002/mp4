@@ -1,7 +1,10 @@
 {
 	"urls": [{
+		"url": "https://tv.203511.xyz/XYQ.json",
+		"name": "203511-XYQ-龒蜗牛D推荐"
+	},{
             "url": "http://tvbox.王二小放牛娃.xyz",
-            "name": "🪐放牛线路-龒蜗牛D推荐"
+            "name": "🪐放牛线路"
         },{
 		"url": "https://tv.菜妮丝.top/",
 		"name": "🚀菜泥丝"
@@ -68,10 +71,7 @@
 	}, {
 		"url": "https://tv.203511.xyz/XBPQ.json",
 		"name": "203511-XBPQ"
-	}, {
-		"url": "https://tv.203511.xyz/XYQ.json",
-		"name": "203511-XYQ"
-	}, {
+	},{
 		"url": "http://饭太硬.top/tv",
 		"name": "🚀饭太硬线路"
 	},{
