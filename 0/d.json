@@ -1,11 +1,11 @@
 {
 	"urls": [{
-		"url": "https://tv.203511.xyz/XYQ.json",
-		"name": "203511-XYQ-龒蜗牛D推荐"
+		"url": "https://tv.203511.xyz/js.json",
+		"name": "203511-JS-龒蜗牛D推荐"
 	},{
-            "url": "http://tvbox.王二小放牛娃.xyz",
-            "name": "🪐放牛线路"
-        },{
+		"url": "https://tv.203511.xyz/XYQ.json",
+		"name": "203511-XYQ"
+	},{
 		"url": "https://tv.菜妮丝.top/",
 		"name": "🚀菜泥丝"
 	},{
@@ -65,9 +65,6 @@
 	}, {
 		"url": "https://tv.203511.xyz/0827.json",
 		"name": "203511-FM"
-	}, {
-		"url": "https://tv.203511.xyz/js.json",
-		"name": "203511-JS"
 	}, {
 		"url": "https://tv.203511.xyz/XBPQ.json",
 		"name": "203511-XBPQ"
@@ -278,5 +275,8 @@
 	}, {
 		"url": "https://yydsys.top/duo/ali",
 		"name": "🚀阿里精品专线"
-	}]
+	},{
+            "url": "http://tvbox.王二小放牛娃.xyz",
+            "name": "🪐放牛线路"
+        }]
 }
